@@ -1,16 +1,16 @@
-package Aula24.atividadeObserver;
+package Aula24.atividadeObserverVoo;
 
 import java.util.ArrayList;
 
 public class Voo {
-    private ArrayList<ObservadorVoo> observadorVoos = new ArrayList<>();
+    private ArrayList<ObservadorVoo> observadores = new ArrayList<>();
 
     public void adicionarObservador(ObservadorVoo o) {
-        this.observadorVoos.add(o);
+        this.observadores.add(o);
     }
 
     public void mudarStatus(String status) {
-        for(ObservadorVoo observadorVoo : observadorVoos) {
+        for(ObservadorVoo observadorVoo : observadores) {
             observadorVoo.atualizar(status);
         }
     }

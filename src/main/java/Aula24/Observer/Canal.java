@@ -1,4 +1,4 @@
-package Aula24;
+package Aula24.Observer;
 
 import java.util.ArrayList;
 

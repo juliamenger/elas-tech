@@ -1,4 +1,4 @@
-package Aula24.atividadeObserver;
+package Aula24.atividadeObserverEstoque;
 
 public interface ObservadorEstoque {
 
