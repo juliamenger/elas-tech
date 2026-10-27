@@ -1,6 +1,6 @@
-package Aula24;
+package Aula24.Observer;
 
-public class Seguidor implements Inscrito{
+public class Seguidor implements Inscrito {
     String nome;
 
     public Seguidor(String nome){

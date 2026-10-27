@@ -1,4 +1,4 @@
-package Aula24;
+package Aula24.Observer;
 
 public interface Inscrito {
 

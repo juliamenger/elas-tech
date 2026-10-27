@@ -1,6 +1,6 @@
-package Aula24.atividadeObserver;
+package Aula24.atividadeObserverEstoque;
 
-public class RegistroEstoque implements ObservadorEstoque{
+public class RegistroEstoque implements ObservadorEstoque {
 
     @Override
     public void atualizar(int quantidade) {
